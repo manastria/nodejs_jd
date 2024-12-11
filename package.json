@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_jd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --config bs-config.js",
+    "build": "cp -r src/* dist/"
+  },
+  "dependencies": {
+    "@fontsource/roboto": "^5.1.0",
+    "@fortawesome/fontawesome-free": "^6.7.1",
+    "autoprefixer": "^10.4.20",
+    "express": "^4.17.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gh-pages": "^6.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
